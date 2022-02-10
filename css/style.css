@@ -1,0 +1,115 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    background-color: rgb(235, 227, 255);
+    padding-bottom: 100px;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.container {
+    max-width: 600px;
+}
+
+#heading {
+    color: #312770;
+    font-weight: 600;
+}
+
+#todo-form {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+input {
+    border-bottom: 2px solid #4d37ac71!important;
+    border-top: 0!important;
+    border-left: 0!important;
+    border-right: 0!important;
+}
+
+input:focus {
+    box-shadow: 0 17px 20px -21px #4d37acf6!important;
+}
+
+#add-button {
+    background-color: #4d37ac1c;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: block;
+    line-height: 1.7;
+    transition: .5s ease;
+}
+
+#add-button:hover {
+    background-color: #4d37ac52;
+    color: #fff;
+}
+
+table {
+    color: rgb(50, 39, 112)!important;
+}
+
+thead {
+    box-shadow: 0 5px 15px #0000001c;
+    border: 2px solid #cdc4ff54;
+}
+
+thead tr {
+    background-color: #d1c1ff85;
+}
+
+th {
+    padding: 15px 10px 15px 20px!important;
+}
+
+table td {
+    vertical-align: middle;
+    padding: 15px 10px 15px 20px!important;
+}
+
+.single-item {
+    box-shadow: 0 6px 11px -12px #9e92ff;
+}
+
+ion-icon {
+    font-size: 18px;
+    padding: 4px;
+}
+
+.btn {
+    padding: 0;
+    line-height: 0;
+}
+
+.modal {
+    background-color: #b2a3e1a3;
+    display: block;
+}
+
+.modal-dialog {
+    max-width: 370px;
+}
+
+.modal-content {
+    top: 50px;
+    background-color: #e8e0ff;
+    border: none;
+    box-shadow: 0 11px 20px 0 #00000026;
+}
+
+.modal-header {
+    padding: 8px 16px;
+    background-color: #dfd4f9;
+}
+
+#alertModalLabel {
+    font-size: 18px;
+    font-weight: 600;
+}
